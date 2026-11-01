@@ -1,15 +1,4 @@
---[[
-    CREDIBILITY UI LIBRARY
-    Game: Sniper Duels RBX
-    Standalone UI library. Add your own game-specific features after creating pages/sections.
 
-    Example:
-        local Library = loadstring(game:HttpGet("YOUR_RAW_URL"))()
-        local Window = Library:Window({Name = "credibility"})
-        local Combat = Window:Page({Name = "Combat"})
-        local Main = Combat:Section({Name = "Main"})
-        Main:Toggle({Name = "Example toggle", Callback = function(state) print(state) end})
-]]
 
 local Library = {}
 Library.__index = Library
